@@ -1,2 +1,2 @@
-This a website made using bootstrap 4 about our spcae which is responsive. 
+This a responsive website made using bootstrap 4 about the universe. 
 https://magnolia18.github.io/Bootstrap4-Assaingment-/.
