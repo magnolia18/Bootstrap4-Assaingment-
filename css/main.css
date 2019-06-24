@@ -1,0 +1,174 @@
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------Navbar-----------------------------------------------------------------------------*/
+/* Style the title */
+.navbar-brand {
+         font-family: 'Cinzel', serif;
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 6.45rem;
+        line-height: inherit;
+        white-space: nowrap;
+        text-transform: uppercase;
+}
+
+/* Style auto display text of search */
+#search_input{
+    font-style: italic;
+}
+/* Style the main menu */
+#main_menu {
+    font-family: 'Cinzel', serif;
+    font-size: 17px;
+    color: rgb(4, 29, 53);
+    margin-top: 12px;
+    /* text-shadow: black; */
+}
+
+#search-input{
+    width: 235px;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------Carousel---------------------------------------------------------------------------------*/
+
+ /* Make the image fully responsive */
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Size of Captions */
+#cap0 h2{
+    font-size: 45px;
+}
+#cap1 h2{
+    font-size: 45px;
+}
+#cap2 h2{
+    font-size: 45px;
+}
+#cap0 p{
+    color: black;
+    font-size: 20px;
+}
+#cap1 p{
+    color: black;
+    font-size: 20px;
+}
+#cap2 p{
+    color: black;
+    font-size: 20px;  
+}
+
+/* Style p*/
+#stylep0{
+    background-color: white;
+    opacity: 1;
+}
+#stylep1{
+    background-color: white;
+    opacity: 1;
+}
+#stylep2{
+    background-color: white;
+    opacity: 1;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------Footer--------------------------------------------------------------------------------- */
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: black !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color: black;
+}
+#footer a {
+    color:black;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color: black;
+}
+#footer ul.social li a:hover{
+	color:black;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+ /* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+ /* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
